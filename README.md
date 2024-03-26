@@ -15,7 +15,9 @@ Highlights
 Contributions
 =
 (1)	To fill the semantic gap between teacher and student networks, a similarity feature matching tensor is created along the channel dimension, which can avoid directly calculating the summation of the distance between the teacher feature map and the student feature map in a one-to-one spatial matching fashion. Subsequently, the semantics of the student's features are reconstructed using a multi-head attention model, enabling the model to selectively emphasize information from various representation subspaces across different spatial positions.
+
 (2)	We revisit feature and logit distillation and reveal that both are indispensable ingredients to boost the success of knowledge transfer from the teacher to guide and refine the student training process. Therefore, a novel unified framework for simultaneously distilling features and logits is proposed, and a secondary parameter value prediction network is proposed to balance their importance, which is very powerful for searching for the best values in a practically infinite combination space.
+
 (3)	We propose an ingenious hierarchical distillation mechanism to address the capacity gap issue between teacher and student networks. Consequently, despite the teacher model having a significantly larger parameter size compared to the student network, effective knowledge transfer from the teacher network to the student network can still be achieved.
 
 The overall framework of the proposed method
