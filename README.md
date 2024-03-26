@@ -8,8 +8,11 @@ Magnetic tiles are the key components of various electrical and mechanical syste
 Highlights
 =
 1)	A novel similarity feature matching tensor is constructed for disparate feature knowledge distillation.
+  
 2)	We reveal that both of feature and logit distillation are indispensable ingredient to boost the success of knowledge transferring from the teacher to guide the training of the student.
+   
 3)	A parameter value prediction network is proposed to search the best values in a practically infinite combination space.
+
 4)	An ingenious hierarchical distillation mechanism is designed to address the capacity gap issue.
 
 Contributions
