@@ -6,4 +6,4 @@
 =
 1.training.py:训练教师网络
 
-2.hkd_train.py:对一级教师与学生网络模型进行训练
+2.hkd_train.py:一级蒸馏
