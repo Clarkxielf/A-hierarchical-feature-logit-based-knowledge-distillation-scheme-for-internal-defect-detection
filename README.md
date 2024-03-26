@@ -20,4 +20,4 @@ Contributions
 
 The overall framework of the proposed method
 =
-![image](框架图.png)
+![框架图](论文框架图/框架图.png)
