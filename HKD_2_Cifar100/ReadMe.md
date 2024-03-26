@@ -7,3 +7,5 @@
 1.hkd_train.py:二级蒸馏
 
 2.student_training.py:训练学生模型
+
+3.HKD1_0.pkl:二级蒸馏模型
